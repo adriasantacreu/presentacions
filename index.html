@@ -4,21 +4,35 @@
 <title>Presentacions · Adrià Santacreu</title>
 <style>
 body{font-family:"Noto Sans",system-ui,sans-serif;margin:0;background:#f4f6fa;color:#262626}
-header{background:rgb(25,75,135);color:#fff;padding:36px 24px}header h1{margin:0;font-size:34px}header p{margin:6px 0 0;opacity:.85}
-main{max-width:860px;margin:0 auto;padding:24px}
+header{background:rgb(25,75,135);color:#fff;padding:36px 24px 28px}header h1{margin:0;font-size:34px}header p{margin:6px 0 0;opacity:.85}
+.in{max-width:900px;margin:0 auto}
+nav{display:flex;flex-wrap:wrap;margin:22px -6px 0}
+nav a{flex:1 1 150px;margin:6px;padding:10px 14px;border-radius:8px;background:rgba(255,255,255,.12);color:#fff;text-decoration:none}
+nav a:hover{background:rgba(255,255,255,.25)}nav b{display:block;font-size:17px}nav span{font-size:13px;opacity:.85}
+main{max-width:900px;margin:0 auto;padding:12px 24px 24px}
+section{padding-top:14px}
 h2{color:rgb(25,75,135);border-bottom:3px solid #00BFFF;padding-bottom:4px}
-a.p{display:block;background:#fff;border-left:5px solid #00BFFF;padding:14px 18px;margin:10px 0;text-decoration:none;color:inherit;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-a.p:hover{box-shadow:0 2px 10px rgba(0,0,0,.18)}a.p b{display:block;font-size:20px}a.p span{color:#666;font-size:15px}
+a.p{display:flex;align-items:flex-start;background:#fff;border-left:5px solid #00BFFF;padding:14px 18px;margin:10px 0;text-decoration:none;color:inherit;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+a.p:hover{box-shadow:0 2px 10px rgba(0,0,0,.18)}
+a.p em{flex:0 0 auto;font-style:normal;font-weight:700;color:#fff;background:rgb(25,75,135);border-radius:6px;padding:3px 8px;margin:2px 14px 0 0;font-size:14px}
+a.p b{display:block;font-size:20px}a.p span{display:block;color:#666;font-size:15px}
+a.p small i{display:inline-block;font-style:normal;font-size:12px;color:#555;background:#eef1f6;border-radius:10px;padding:2px 9px;margin:6px 6px 0 0}
+.ajuda{font-size:14px;color:#666;line-height:1.7}.ajuda kbd{background:#fff;border:1px solid #ccc;border-radius:4px;padding:0 5px}
 footer{text-align:center;color:#888;font-size:13px;padding:30px}
 </style></head><body>
-<header><h1>Presentacions interactives</h1><p>Institut Escola Sant Pol de Mar · Matemàtiques · Curs 2026/27</p></header>
+<header><div class="in"><h1>Presentacions interactives</h1><p>Institut Escola Sant Pol de Mar · Matemàtiques · Curs 2026/27</p>
+<nav>
+<a href="#1bat"><b>1r de Batxillerat</b><span>Matemàtiques I · 1</span></a>
+<a href="#2bat"><b>2n de Batxillerat</b><span>Matemàtiques II · 1</span></a>
+</nav></div></header>
 <main>
-<h2>2n de Batxillerat · Matemàtiques II</h2>
-<a class="p" href="2bat/determinants_pissarra.html"><b>Menors, adjunts i desenvolupament (mode pissarra): amb capa d&#x27;escriptura digital i punter làser multicolor</b><span>Unitat 2 · versió amb eina de pissarra digital i punter làser multicolor</span></a>
-<a class="p" href="2bat/determinants_adjunts.html"><b>Menors, adjunts i desenvolupament: el determinant per qualsevol fila o columna</b><span>Unitat 2 · menor complementari, adjunt, desenvolupament per adjunts i fer zeros · amb exercicis per practicar</span></a>
-<h2>1r de Batxillerat · Matemàtiques I</h2>
-<a class="p" href="1bat/polinomis.html"><b>Polinomis: operar, dividir i la regla de Ruffini</b><span>Unitat 2 · valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar</span></a>
-<p style="font-size:14px;color:#666">Tecles: ← → per passar diapos · <b>L</b> mode lectura · <b>F</b> pantalla completa · ▶ per veure cada resultat.</p>
+<section id="1bat"><h2>1r de Batxillerat · Matemàtiques I</h2>
+<a class="p" href="1bat/polinomis.html"><em>U2</em><div><b>Polinomis: operar, dividir i la regla de Ruffini</b><span>valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar</span><small></small></div></a>
+</section>
+<section id="2bat"><h2>2n de Batxillerat · Matemàtiques II</h2>
+<a class="p" href="2bat/determinants_adjunts.html"><em>U2</em><div><b>Menors, adjunts i desenvolupament: el determinant per qualsevol fila o columna</b><span>menor complementari, adjunt, desenvolupament per adjunts i fer zeros · amb exercicis per practicar</span><small><i>33 diapos</i><i>▶ 8 vídeos</i></small></div></a>
+</section>
+<p class="ajuda"><kbd>←</kbd> <kbd>→</kbd> passar diapos · <kbd>L</kbd> mode lectura · <kbd>F</kbd> pantalla completa · <kbd>P</kbd> escriure a sobre · <kbd>M</kbd> làser (colors, vermell o apagat) · ▶ al peu de la diapo: un vídeo que ho explica.</p>
 </main>
 <footer>Adrià Santacreu · Institut Escola Sant Pol de Mar</footer>
 </body></html>
