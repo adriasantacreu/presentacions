@@ -20,16 +20,5 @@
   "diapos": 36,
   "videos": 7,
   "actualitzat": "2026-10-14"
- },
- {
-  "curs": "1BATPR",
-  "materia": "Programació i robòtica",
-  "unitat": "2",
-  "titol": "Format condicional: de 0 a expert, amb la lliga de robots",
-  "descripcio": "regles, escales de colors, fórmules personalitzades i depuració a Google Sheets",
-  "fitxer": "1batpr/google-sheets_format-condicional_1bat-prog.html",
-  "diapos": 123,
-  "videos": 0,
-  "actualitzat": "2026-10-14"
  }
 ]
