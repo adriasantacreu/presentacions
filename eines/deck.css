@@ -1,0 +1,95 @@
+/* Tema adria en HTML: mateixa estètica que beamerthemeadria.sty (escenari 1280×720 escalat) */
+:root{--blau:#00BFFF;--verd:#32CD32;--lila:#9400D3;--rosa:#FF1493;--fosc:rgb(25,75,135);--taronja:rgb(215,110,0);
+  --vermell:rgb(200,20,20);--verdtext:#1f7a1f;--cc:var(--fosc)}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#1b1b1b;overflow:hidden;font-family:"Noto Sans",sans-serif}
+#stage{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform-origin:center center}
+.slide{position:absolute;left:0;top:0;width:1280px;height:720px;background:#fff;color:#262626;font-size:29px;line-height:1.38;display:none;
+  padding:96px 56px 80px;overflow:hidden}
+.slide.on{display:block}
+.slide>h2{position:absolute;left:48px;right:48px;top:22px;margin:0;font-size:40px;font-weight:700;color:var(--cc);
+  display:flex;align-items:baseline}
+.slide>h2 .mat{margin-left:auto;font-size:15px;font-weight:400;color:#8c8c8c}
+.foot-logo{position:absolute;left:28px;bottom:20px;height:48px}
+.foot-num{position:absolute;right:36px;bottom:24px;min-width:30px;height:30px;border-radius:15px;background:var(--cc);
+  color:#fff;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 6px}
+/* Portada, seccions i impactes */
+.portada,.seccio,.impacte{display:none;text-align:center;padding:0}
+.portada.on,.seccio.on,.impacte.on{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.portada{background:var(--fosc);color:#fff}
+.portada h1{font-size:100px;margin:0 0 20px;font-weight:700}
+.portada .sub{font-size:36px;color:#dbe4ee}.portada .sub small{display:block;font-size:24px;margin-top:18px}
+.portada img{position:absolute;bottom:32px;height:72px}
+.seccio{background:color-mix(in srgb,var(--cc) 85%,black);color:#fff}
+.seccio .n{font-size:30px;opacity:.8;letter-spacing:1px}.seccio h1{font-size:62px;margin:10px 0 0}
+.impacte h1{font-size:76px;color:#fff;margin:0 0 26px;max-width:1100px;line-height:1.15}
+.impacte .sub{font-size:36px;color:rgba(255,255,255,.88)}
+/* Pausa */
+.slide.pausa{background:#fff3e0}
+.temps{position:absolute;right:120px;bottom:24px;background:#d97a00;color:#fff;border-radius:7px;font-size:17px;
+  font-weight:700;padding:5px 11px}
+.cons{color:var(--verdtext);font-weight:700}.ampl{color:var(--lila);font-weight:700}
+/* Blocs */
+.teoria,.exemple,.alerta{border-left:4px solid var(--fosc);padding:8px 14px 10px 22px;margin:10px 0}
+.teoria>b.t,.exemple>b.t,.alerta>b.t{display:block;margin-bottom:6px}
+.teoria>b.t{color:var(--fosc)}
+.exemple{border-color:#2a9a2a;background:#f4fcf4}.exemple>b.t{color:#2a9a2a}
+.alerta{border-color:var(--taronja);background:#fdf6ef}.alerta>b.t{color:var(--taronja)}
+.pista{font-style:italic;color:#666;font-size:.86em}.pista::before{content:"Pista: ";font-weight:700}
+.cols{display:flex;gap:28px;align-items:flex-start}.cols>*{flex:1;min-width:0}.cols.c{align-items:center}
+.center{text-align:center}.small{font-size:.86em}.xs{font-size:.74em}
+ul,ol{margin:8px 0;padding-left:1.4em}li{margin:7px 0}
+ul>li::marker{color:var(--cc)}
+ol{list-style:none;counter-reset:n}ol>li{counter-increment:n;position:relative}
+ol>li::before{content:counter(n);position:absolute;left:-1.45em;top:.12em;width:1.1em;height:1.1em;border-radius:50%;
+  background:var(--cc);color:#fff;font-size:.72em;font-weight:700;display:flex;align-items:center;justify-content:center}
+ol.lt>li::before{content:counter(n,lower-alpha) ")";background:none;color:var(--cc);font-size:.95em;top:0;width:auto}
+.hl{background:color-mix(in srgb,var(--cc) 22%,white);font-weight:700;padding:0 4px}
+.ok{color:var(--verdtext);font-weight:700}.ko{color:var(--vermell);font-weight:700}
+.dreta{float:right}
+/* Revelat: l'espai es reserva (com \onslide) */
+.res,.r{transition:opacity .25s}
+.amagat{opacity:0;cursor:pointer;border-radius:4px}
+.amagat:hover{opacity:.12;background:var(--cc)}
+.rev{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;margin:0 6px;border-radius:50%;
+  border:2px solid var(--cc);color:var(--cc);background:#fff;font-size:13px;cursor:pointer;vertical-align:.15em;padding:0 0 0 2px;
+  font-family:inherit;transition:transform .15s}
+.rev:hover{transform:scale(1.2);background:var(--cc);color:#fff}
+.rev.fet{visibility:hidden}
+.rg{position:relative}.rg>.rev{position:absolute;right:-8px;top:-4px}
+/* Taules matemàtiques (divisió llarga i Ruffini) */
+table.mt{border-collapse:separate;border-spacing:0;margin:8px auto}  /* separate: la ratlla és de la cel·la i s'amaga amb ella */
+table.mt td{padding:3px 12px;text-align:right;white-space:nowrap}
+table.mt td.u{border-top:2px solid #333}
+table.mt.div td:last-child{border-left:2px solid #333;text-align:left}
+table.mt.div tr:first-child td:last-child{border-bottom:2px solid #333}
+table.mt.ruf td:first-child{border-right:2px solid #333}
+table.mt.ruf tr:last-child td{border-top:2px solid #333}
+table.mt td.bx>span{border:2px solid #333;padding:0 6px}
+table.mt td.cur{background:#fff3c4}table.mt td.nou{color:var(--cc);font-weight:700}
+/* Ginys interactius */
+.giny{background:#f7f9fc;border:1px solid #dde3ec;border-radius:10px;padding:14px 18px}
+.giny input[type=range]{width:100%;accent-color:var(--cc);height:28px}
+.giny input[type=text],.giny input[type=number]{font:inherit;font-size:24px;padding:3px 8px;border:2px solid #cfd8e3;border-radius:6px;width:100%}
+.giny button.b{font:inherit;font-size:22px;font-weight:700;padding:6px 16px;border-radius:8px;border:2px solid var(--cc);
+  background:#fff;color:var(--cc);cursor:pointer}
+.giny button.b:hover,.giny button.b.sel{background:var(--cc);color:#fff}
+.giny .fila{display:flex;gap:10px;align-items:center;margin:6px 0}
+.giny svg{display:block;background:#fff;border:1px solid #e3e7ee;border-radius:6px}
+.giny .exp{min-height:1.5em;font-size:26px}
+.giny .taula{font-size:1.25em}
+.giny .zero{color:var(--verdtext);font-weight:700}
+/* Navegació */
+.nav{position:fixed;top:50%;transform:translateY(-50%);width:54px;height:110px;border:0;background:rgba(255,255,255,.08);
+  color:#fff;font-size:34px;cursor:pointer;opacity:.25;z-index:5;border-radius:8px}
+.nav:hover{opacity:.9;background:rgba(0,0,0,.35)}#prev{left:6px}#next{right:6px}
+#barra{position:fixed;left:0;top:0;height:4px;background:var(--blau);z-index:6;transition:width .2s}
+@media print{.nav,#barra{display:none}}
+/* Mode lectura: totes les diapos seguides amb scroll (per a casa, mòbil) */
+body.lectura{overflow:auto;background:#e9ecf1}
+body.lectura #stage{position:static;transform:none!important;margin:0 auto;padding:20px 0 60px}
+body.lectura .slide{position:relative;display:block;width:1280px;height:720px;margin:0 auto 22px;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+body.lectura .portada,body.lectura .seccio,body.lectura .impacte{display:flex;flex-direction:column;align-items:center;justify-content:center}
+body.lectura .nav,body.lectura #barra{display:none}
+#mode{position:fixed;left:50%;transform:translateX(-50%);bottom:8px;z-index:7;font:600 14px "Noto Sans",sans-serif;padding:6px 12px;border-radius:16px;
+  border:0;background:rgba(0,0,0,.45);color:#fff;cursor:pointer;opacity:.3}#mode:hover{opacity:1}body.lectura #mode{opacity:.85}

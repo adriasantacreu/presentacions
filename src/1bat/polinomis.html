@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Polinomis · 1r de Batxillerat</title>
+<!--@INLINE-->
+</head>
+<body data-materia="Matemàtiques I · 1r de Batxillerat" data-logo="@logo:transparent">
+<div id="stage">
+
+<section class="slide portada">
+  <h1>Polinomis</h1>
+  <div class="sub">Operar, dividir i la regla de Ruffini<small>1r de Batxillerat · Matemàtiques I · Unitat 2</small></div>
+  <img src="@logo:blanc" alt="">
+</section>
+
+<section class="slide">
+  <h2>Què farem avui</h2>
+  <ol style="margin-top:20px">
+    <li style="margin:16px 0"><span class="hl">Polinomis</span>: vocabulari, polinomi reduït i valor numèric (p. 37).</li>
+    <li style="margin:16px 0"><span class="hl">Suma, resta i multiplicació</span> de polinomis (p. 37).</li>
+    <li style="margin:16px 0"><span class="hl">Divisió</span> de polinomis: dividend, divisor, quocient i residu (p. 38).</li>
+    <li style="margin:16px 0">La <span class="hl">regla de Ruffini</span> i el <span class="hl">teorema del residu</span> (p. 38).</li>
+  </ol>
+  <p class="pista" style="margin-top:50px">És l'eina de tota la unitat: per factoritzar, simplificar fraccions i resoldre equacions de grau alt farem Ruffini una vegada i una altra.</p>
+</section>
+
+<section class="slide impacte" data-bg="rgb(25,75,135)">
+  <h1>Les lletres també es poden sumar</h1>
+  <div class="sub">Avui operem amb polinomis com si fossin nombres</div>
+</section>
+
+<!-- ======================================================================= -->
+<section class="slide seccio"><h1>Polinomis</h1></section>
+
+<section class="slide">
+  <h2>Què és un polinomi?</h2>
+  <div class="cols">
+    <div style="flex:1.6">
+      <div class="teoria"><b class="t">Polinomi</b>
+        Un <b>polinomi</b>, $P(x)$, és una suma o resta de dos o més monomis, que s'anomenen <b>termes</b>.
+        <ul>
+          <li>Si no té monomis semblants, és un <b>polinomi reduït</b>.</li>
+          <li><b>Grau</b>: el del terme de grau més alt del polinomi reduït.</li>
+          <li><b>Terme independent</b>: el monomi sense part literal.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="exemple"><b class="t">Monomi</b>
+        $$\underbrace{-2}_{\text{coeficient}}\underbrace{x^3y}_{\text{part literal}}$$
+        Grau $=3+1=4$.<br>
+        Dos monomis són <b>semblants</b> si tenen la mateixa part literal: $5x^2$ i $-x^2$.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Del llibre · exemple 1 (p. 37)</h2>
+  Escriu el polinomi reduït i indica'n el grau i el terme independent.
+  $$P(x)=3x^5-3x^2+4x-x^3-x^5+3$$
+  <div class="rg">
+    <ol class="r">
+      <li style="margin:14px 0">Agrupem els semblants: $3x^5-x^5=2x^5$. La resta no tenen parella.</li>
+      <li style="margin:14px 0">Ordenem de grau més alt a més baix: $P(x)=2x^5-x^3-3x^2+4x+3$.</li>
+      <li style="margin:14px 0">Grau $=\mathbf{5}$ &nbsp;·&nbsp; terme independent $=\mathbf{3}$.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Reduir: grau i terme independent</h2>
+  <ol>
+    <li>$4x^2-x+3x^2+5$ <span class="res">$=7x^2-x+5$ &nbsp; <span class="small">grau $2$ · TI $5$</span></span></li>
+    <li>$x^3-2x+x^3+2x-7$ <span class="res">$=2x^3-7$ &nbsp; <span class="small">grau $3$ · TI $-7$</span></span></li>
+    <li>$5x^4-3x+1-5x^4$ <span class="res">$=-3x+1$ &nbsp; <span class="small">grau <span class="ko">$1$, no $4$!</span></span></span></li>
+    <li>$2x\cdot 3x^2-6x^3+x$ <span class="res">$=6x^3-6x^3+x=x$ &nbsp; <span class="small">grau $1$ · TI <span class="ko">$0$</span></span></span></li>
+  </ol>
+  <div class="alerta res" style="margin-top:28px"><b class="t">Atenció</b>
+    El grau es mira <b>després de reduir</b>: si el terme de grau més alt s'anul·la, el grau baixa.
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Valor numèric</h2>
+  El <b>valor numèric</b> de $P(x)$ quan $x=a$, $P(a)$, és el nombre que resulta de substituir $x$ per $a$ i operar.
+  <ol style="margin:10px 0 6px">
+    <li style="margin:5px 0"><b>Llibre, ex. 2</b>: $P(x)=x^3-3$, &nbsp;$P(-2)$ <span class="res">$=(-2)^3-3=\mathbf{-11}$</span></li>
+    <li style="margin:5px 0">$Q(x)=x^3-3x^2+2x-1$: &nbsp;$Q(2)$ <span class="res">$=8-12+4-1=\mathbf{-1}$</span></li>
+    <li style="margin:5px 0">$Q(-1)$ <span class="res">$=-1-3-2-1=\mathbf{-7}$</span> &emsp;&emsp; $Q(0)$ <span class="res">$=\mathbf{-1}$ (el terme independent!)</span></li>
+    <li style="margin:5px 0">$R(x)=2x^4-x^2+3$: &nbsp;$R(-1)$ <span class="res">$=2-1+3=\mathbf{4}$</span></li>
+    <li style="margin:5px 0">$R\!\left(\tfrac12\right)$ <span class="res">$=\tfrac{2}{16}-\tfrac14+3=\mathbf{\tfrac{23}{8}}$</span></li>
+  </ol>
+  <div class="cols">
+    <p class="pista" style="margin:8px 0">Substitueix <b>amb parèntesis</b>: $-3x^2$ amb $x=-1$ és $-3\cdot(-1)^2=-3$, no $+3$.</p>
+    <div class="exemple res" style="margin:0"><b class="t">Truc</b>$P(0)$ és sempre el terme independent.</div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Juga-hi: valor numèric</h2>
+  <p class="small" style="margin:0 0 8px">Tria el polinomi i mou $a$: el valor numèric $P(a)$ és l'altura de la gràfica a $x=a$.</p>
+  <div class="giny" data-giny="valor" data-pols='[
+    {"nom":"Q","cs":[1,-3,2,-1],"finestra":[-2,4,-12,8],"a0":2},
+    {"nom":"R","cs":[2,0,-1,0,3],"finestra":[-2.5,2.5,-2,14],"a0":-1},
+    {"nom":"P","cs":[1,0,0,-3],"finestra":[-3,3,-14,8],"a0":-2}]'></div>
+</section>
+
+<section class="slide">
+  <h2>Practica: valor numèric</h2>
+  <p class="small" style="margin:0 0 8px">Exercicis infinits: calcula, escriu el resultat i comprova'l. Si t'encalles, mira la solució.</p>
+  <div class="giny" data-giny="practica" data-tipus="valor"></div>
+</section>
+
+<!-- ======================================================================= -->
+<section class="slide seccio"><h1>Suma, resta i multiplicació</h1></section>
+
+<section class="slide">
+  <h2>Com s'opera</h2>
+  <div class="teoria"><b class="t">Suma, resta i multiplicació (p. 37)</b>
+    <ul>
+      <li>Per <b>sumar o restar</b> polinomis se sumen o es resten els <b>monomis semblants</b>.</li>
+      <li>Per <b>multiplicar</b> es multiplica cada monomi del primer per tots els monomis del segon i, després, s'agrupen els semblants. Recorda $x^m\cdot x^n=x^{m+n}$.</li>
+    </ul>
+  </div>
+  <div class="exemple"><b class="t">Llibre, ex. 3: $P(x)=2x^4-3x^2$, &nbsp;$Q(x)=4x^2-2x+8$, &nbsp;$R(x)=x-1$</b>
+    a) $P-Q+R$ <span class="res">$=(2x^4-3x^2)\,{\color{#c81414}-}\,(4x^2-2x+8)+(x-1)$<br>
+    $\phantom{a)\ P-Q+R}=2x^4-3x^2{\color{#c81414}-4x^2+2x-8}+x-1=\mathbf{2x^4-7x^2+3x-9}$</span>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Del llibre · el producte (ex. 3b, p. 37)</h2>
+  $$P(x)\cdot Q(x)=(2x^4-3x^2)\cdot(4x^2-2x+8)$$
+  <div class="rg"><div class="r">
+    <ol>
+      <li style="margin:12px 0">Cada terme del primer per tot el segon: $=2x^4\cdot(4x^2-2x+8)-3x^2\cdot(4x^2-2x+8)$</li>
+      <li style="margin:12px 0">$=8x^6-4x^5+16x^4\;-\;12x^4+6x^3-24x^2$</li>
+      <li style="margin:12px 0">Agrupem els semblants ($16x^4-12x^4$): &nbsp;$=\mathbf{8x^6-4x^5+4x^4+6x^3-24x^2}$</li>
+    </ol>
+    <p class="pista" style="margin-top:30px">Comprova el grau abans d'acabar: $4+2=6$. Si et surt un altre grau, t'has descuidat algun terme.</p>
+  </div></div>
+</section>
+
+<section class="slide">
+  <h2>Operacions: de fàcil a difícil</h2>
+  <p class="center" style="margin:0 0 6px">$A(x)=3x^2-x+4$ &emsp; $B(x)=x^2+5x-6$</p>
+  <ol>
+    <li style="margin:13px 0">$A+B$ <span class="res">$=\mathbf{4x^2+4x-2}$</span></li>
+    <li style="margin:13px 0">$A-B$ <span class="res">$=3x^2-x+4{\color{#c81414}-x^2-5x+6}=\mathbf{2x^2-6x+10}$ <span class="small">(el $-$ canvia <b>tots</b> els signes)</span></span></li>
+    <li style="margin:13px 0">$(x+3)(2x-5)$ <span class="res">$=2x^2-5x+6x-15=\mathbf{2x^2+x-15}$</span></li>
+    <li style="margin:13px 0">$(x^2-2x+1)(x+1)$ <span class="res">$=x^3+x^2-2x^2-2x+x+1=\mathbf{x^3-x^2-x+1}$</span></li>
+    <li style="margin:13px 0">$(2x-1)^2-(x+2)(x-2)$ <span class="res">$=(4x^2-4x+1)-(x^2-4)=\mathbf{3x^2-4x+5}$</span></li>
+  </ol>
+</section>
+
+<section class="slide">
+  <h2>Fixa't-hi: què passa amb el grau?</h2>
+  <div class="cols">
+    <div>
+      <div class="teoria"><b class="t">Producte</b>$\operatorname{grau}(P\cdot Q)=\operatorname{grau}(P)+\operatorname{grau}(Q)$.</div>
+      <div class="teoria"><b class="t">Suma i resta</b>$\operatorname{grau}(P\pm Q)\le$ el més gran dels dos. <b>Pot baixar</b>:
+        $$(x^3+2x)+(-x^3+x^2)=x^2+2x$$</div>
+    </div>
+    <div>
+      <div class="exemple"><b class="t">Pregunta del llibre (p. 37)</b>
+        La suma, la resta i el producte de polinomis, <b>són sempre un polinomi</b>?</div>
+      <p class="pista res" style="margin-top:20px">Sí: només es sumen coeficients i se sumen exponents naturals. La <b>divisió</b>, en canvi, no sempre dona un polinomi: d'aquí ve el residu.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide pausa" data-temps="10 min">
+  <h2>Pausa: polinomis i operacions</h2>
+  <div class="cols small">
+    <div><span class="cons">Consolidació</span>
+      <ul>
+        <li><b>Act. 1</b> (p. 37): escriu un polinomi de grau 3 i terme independent $-1$. Determina'n els termes i el valor numèric per a $x=2$ i $x=-2$.</li>
+        <li><b>Act. 2</b> (p. 37): efectua i calcula'n el grau:<br>$(-2x^3+x^2+x-1)(x-2)+(3x+1)(x+3)$</li>
+      </ul>
+    </div>
+    <div><span class="ampl">Ampliació</span>
+      <ul>
+        <li><b>Act. 41</b> (p. 55): valor numèric.</li>
+        <li><b>Act. 43</b> (p. 55): operacions entre polinomis.</li>
+        <li><b>Act. 46</b> (p. 55): operacions combinades.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sol>
+  <h2>Pausa: solucions de les activitats 1 i 2</h2>
+  <div class="cols">
+    <div>
+      <b>Act. 1</b> (resposta oberta). Per exemple: $$P(x)=2x^3+3x-1$$
+      Termes: $2x^3$, $3x$, $-1$.
+      <ul>
+        <li>$P(2)=2\cdot 8+6-1=\mathbf{21}$</li>
+        <li>$P(-2)=2\cdot(-8)-6-1=\mathbf{-23}$</li>
+      </ul>
+    </div>
+    <div style="flex:1.5">
+      <b>Act. 2</b>
+      $$\begin{aligned}&(-2x^3+x^2+x-1)(x-2)\\&\quad=-2x^4+5x^3-x^2-3x+2\\&(3x+1)(x+3)=3x^2+10x+3\\&\text{Suma: }\mathbf{-2x^4+5x^3+2x^2+7x+5}\end{aligned}$$
+      Té <b>grau 4</b>.
+    </div>
+  </div>
+</section>
+
+<section class="slide impacte" data-bg="#279f27">
+  <h1>Dividir també té residu</h1>
+  <div class="sub">Com amb els nombres: $17=5\cdot 3+2$</div>
+</section>
+
+<!-- ======================================================================= -->
+<section class="slide seccio"><h1>Divisió de polinomis</h1></section>
+
+<section class="slide">
+  <h2>La divisió de polinomis</h2>
+  <div class="teoria"><b class="t">Identitat de la divisió (p. 38)</b>
+    En dividir $P(x):Q(x)$ s'obtenen el <b>polinomi quocient</b> $C(x)$ i el <b>polinomi residu</b> $R(x)$:
+    $$\underbrace{P(x)}_{\text{dividend}}=\underbrace{Q(x)}_{\text{divisor}}\cdot\underbrace{C(x)}_{\text{quocient}}+\underbrace{R(x)}_{\text{residu}}$$
+  </div>
+  <div class="cols">
+    <div class="exemple"><b class="t">Graus</b>$\operatorname{grau}(P)=\operatorname{grau}(Q)+\operatorname{grau}(C)$<br>$\operatorname{grau}(R)&lt;\operatorname{grau}(Q)$</div>
+    <div class="alerta"><b class="t">Quan parar</b>Quan el que queda té grau <b>més petit</b> que el divisor. Si queda $0$, la divisió és <b>exacta</b>.</div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Del llibre · exemple 4 (p. 38)</h2>
+  $$(8x^3-4x^2+7):(2x^2+x-1)$$
+  <div class="cols c rg">
+    <div><div class="mt-src div">
+      8x^3 & -4x^2 & & +7 & 2x^2+x-1
+      ?-8x^3 & ?-4x^2 & ?+4x & & ?4x-4
+      _ & _?-8x^2 & _?+4x & ?+7 &
+      & ?8x^2 & ?+4x & ?-4 &
+      & _ & _?\mathbf{8x} & _?\mathbf{+3} &
+    </div></div>
+    <ol class="r small" style="flex:0.85">
+      <li>$8x^3:2x^2=4x$. Multipliquem i <b>canviem el signe</b>.</li>
+      <li>Sumem i baixem el $+7$.</li>
+      <li>$-8x^2:2x^2=-4$. Tornem-hi.</li>
+      <li>Grau $1&lt;2$: parem. $C(x)=\mathbf{4x-4}$, &nbsp;$R(x)=\mathbf{8x+3}$.</li>
+    </ol>
+  </div>
+  <p class="center res">Comprovació: $8x^3-4x^2+7=(2x^2+x-1)(4x-4)+8x+3$ <span class="ok">bé</span></p>
+</section>
+
+<section class="slide">
+  <h2>Dividir: més exemples</h2>
+  <div class="cols small">
+    <div class="center rg">
+      $(x^3+2x^2-x+3):(x^2+1)$
+      <div class="mt-src div">
+        x^3 & +2x^2 & -x & +3 & x^2+1
+        ?-x^3 & & ?-x & & ?x+2
+        _ & _?2x^2 & _?-2x & _?+3 &
+        & ?-2x^2 & & ?-2 &
+        & _ & _?\mathbf{-2x} & _?\mathbf{+1} &
+      </div>
+      <span class="r">$C(x)=x+2$, &nbsp;$R(x)=-2x+1$</span>
+    </div>
+    <div class="center rg">
+      $(6x^3-x^2+4):(2x+1)$
+      <div class="mt-src div">
+        6x^3 & -x^2 & \color{#c81414}{+0x} & +4 & 2x+1
+        ?-6x^3 & ?-3x^2 & & & ?3x^2-2x+1
+        _ & _?-4x^2 & ?+0x & &
+        & ?4x^2 & ?+2x & &
+        & _ & _?2x & ?+4 &
+        & & ?-2x & ?-1 &
+        & & _ & _?\mathbf{3} &
+      </div>
+      <span class="r">$C(x)=3x^2-2x+1$, &nbsp;$R=3$</span>
+    </div>
+  </div>
+  <p class="pista" style="margin:0">Deixa forat (o escriu $0x$) per als termes que falten.</p>
+</section>
+
+<!-- ======================================================================= -->
+<section class="slide seccio"><h1>Regla de Ruffini</h1></section>
+
+<section class="slide">
+  <h2>La regla de Ruffini</h2>
+  <div class="teoria"><b class="t">Regla de Ruffini (p. 38)</b>
+    És un procediment per dividir polinomis quan el divisor és de la forma $(x-a)$, en què $a$ és un nombre enter.</div>
+  <div class="cols">
+    <div style="flex:1.3" class="small">
+      <p style="margin:6px 0"><b>1r</b> S'escriuen <b>tots</b> els coeficients del dividend (un $0$ si falta un terme) i, a l'esquerra, el terme independent del divisor <b>canviat de signe</b>.</p>
+      <p style="margin:6px 0"><b>2n</b> Es baixa el primer coeficient, es multiplica per $a$ i se suma al següent. Es repeteix fins al final.</p>
+      <p style="margin:6px 0"><b>3r</b> Els primers nombres són els coeficients del <b>quocient</b>; l'últim, el <b>residu</b>.</p>
+    </div>
+    <div style="flex:1.05">
+      <div class="alerta" style="font-size:.92em"><b class="t">No te n'oblidis</b>Divisor $(x-a)\to$ a l'esquerra $\mathbf{+a}$<br>Divisor $(x+a)\to$ a l'esquerra $\mathbf{-a}$</div>
+      <p class="pista">El quocient té <b>un grau menys</b> que el dividend.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Del llibre · Ruffini pas a pas (p. 38)</h2>
+  <p class="center" style="margin:0">$(x^3+3):(x+1)\quad\Rightarrow\quad a=-1$</p>
+  <div class="cols c rg">
+    <div style="font-size:1.15em"><div class="mt-src ruf">
+      & 1 & \color{#c81414}{0} & \color{#c81414}{0} & 3
+      -1 & & ?-1 & ?1 & ?-1
+      & ?1 & ?-1 & ?1 & !?2
+    </div></div>
+    <ul>
+      <li>Falten $x^2$ i $x$: hi posem <span class="ko">$0$</span>.</li>
+      <li class="r">Baixem l'$1$.</li>
+      <li class="r">$1\cdot(-1)=-1$; &nbsp;$0+(-1)=-1$.</li>
+      <li class="r">$(-1)\cdot(-1)=1$; &nbsp;$0+1=1$.</li>
+      <li class="r">$1\cdot(-1)=-1$; &nbsp;$3+(-1)=2$.</li>
+      <li class="r">Quocient $\mathbf{x^2-x+1}$, &nbsp;residu $\mathbf{2}$.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Ruffini: un altre cop</h2>
+  <p class="center" style="margin:0">$(2x^3-3x^2-11x+6):(x-3)\quad\Rightarrow\quad a=3$</p>
+  <div class="cols c rg">
+    <div style="font-size:1.15em"><div class="mt-src ruf">
+      & 2 & -3 & -11 & 6
+      3 & & ?6 & ?9 & ?-6
+      & ?2 & ?3 & ?-2 & !?0
+    </div></div>
+    <ul class="r">
+      <li>Quocient: $C(x)=2x^2+3x-2$.</li>
+      <li>Residu $0\ \Rightarrow$ divisió <span class="ok">exacta</span>.</li>
+      <li>Llavors: $2x^3-3x^2-11x+6=(x-3)(2x^2+3x-2)$.</li>
+    </ul>
+  </div>
+  <p class="pista res">Residu $0$ vol dir que hem trobat un <b>factor</b>: és la porta a la factorització (propera classe).</p>
+</section>
+
+<section class="slide">
+  <h2>Juga-hi: la màquina de Ruffini</h2>
+  <p class="small" style="margin:0 0 8px">Escriu els coeficients (amb els zeros!) i el valor de $a$. Prem <b>Pas</b> per anar fent.</p>
+  <div class="giny" data-giny="ruffini" data-cs="1 0 0 3" data-a="-1"></div>
+</section>
+
+<section class="slide">
+  <h2>Ruffini: practiquem (I)</h2>
+  <div class="cols">
+    <div class="center rg"><b>a)</b> $(x^4-5x^2+4):(x-2)$
+      <div class="mt-src ruf">
+        & 1 & 0 & -5 & 0 & 4
+        2 & & ?2 & ?4 & ?-2 & ?-4
+        & ?1 & ?2 & ?-1 & ?-2 & !?0
+      </div>
+      <span class="r">$C=x^3+2x^2-x-2$, &nbsp;$R=0$</span>
+    </div>
+    <div class="center rg"><b>b)</b> $(3x^3+2x-5):(x+2)$
+      <div class="mt-src ruf">
+        & 3 & 0 & 2 & -5
+        -2 & & ?-6 & ?12 & ?-28
+        & ?3 & ?-6 & ?14 & !?-33
+      </div>
+      <span class="r">$C=3x^2-6x+14$, &nbsp;$R=-33$</span>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Ruffini: practiquem (II)</h2>
+  <div class="cols">
+    <div class="center rg"><b>c)</b> $(x^3-1):(x-1)$
+      <div class="mt-src ruf">
+        & 1 & 0 & 0 & -1
+        1 & & ?1 & ?1 & ?1
+        & ?1 & ?1 & ?1 & !?0
+      </div>
+      <span class="r">$C=x^2+x+1$, &nbsp;$R=0$</span>
+    </div>
+    <div class="center rg"><b>d)</b> $(2x^4+x^3-x+1):(x+1)$
+      <div class="mt-src ruf">
+        & 2 & 1 & 0 & -1 & 1
+        -1 & & ?-2 & ?1 & ?-1 & ?2
+        & ?2 & ?-1 & ?1 & ?-2 & !?3
+      </div>
+      <span class="r">$C=2x^3-x^2+x-2$, &nbsp;$R=3$</span>
+    </div>
+  </div>
+  <p class="pista res">Fixa't en la c): $x^3-1=(x-1)(x^2+x+1)$. Una diferència de cubs que ja surt factoritzada.</p>
+</section>
+
+<section class="slide">
+  <h2>Practica: Ruffini</h2>
+  <p class="small" style="margin:0 0 8px">Fes la divisió a la llibreta i escriu els coeficients del quocient i el residu. Recorda: zeros als forats!</p>
+  <div class="giny" data-giny="practica" data-tipus="ruffini"></div>
+</section>
+
+<section class="slide">
+  <h2>El teorema del residu</h2>
+  <div class="teoria"><b class="t">Teorema del residu (p. 38)</b>
+    El residu de dividir $P(x)$ entre $(x-a)$ és igual al valor numèric $P(a)$.</div>
+  <ol class="small">
+    <li>Llibre: $(x^3+3):(x+1)$ <span class="res">$\to\ P(-1)=-1+3=\mathbf{2}$ <span class="ok">bé</span></span></li>
+    <li>Exemple b): $(3x^3+2x-5):(x+2)$ <span class="res">$\to\ P(-2)=3\cdot(-8)+2\cdot(-2)-5=\mathbf{-33}$ <span class="ok">bé</span></span></li>
+    <li>$(x^5-3x+2):(x-1)$ <span class="res">$\to\ P(1)=1-3+2=0\ \Rightarrow$ divisió <span class="ok">exacta</span></span></li>
+    <li>$(x^{100}+1):(x+1)$ <span class="res">$\to\ P(-1)=(-1)^{100}+1=\mathbf{2}$ (sense Ruffini!)</span></li>
+    <li>$P(x)=x^3-4x^2+x+6$, $(x-2)$? <span class="res">$P(2)=8-16+2+6=0\ \Rightarrow\ (x-2)$ és un factor de $P$.</span></li>
+  </ol>
+  <div class="alerta res"><b class="t">Només per a $(x-a)$</b>Amb divisors com $(2x+1)$ o $(x^2+1)$ cal fer la divisió llarga.</div>
+</section>
+
+<section class="slide">
+  <h2>Juga-hi: residu i gràfica</h2>
+  <p class="small" style="margin:0 0 6px">Mou $a$: el residu de Ruffini és l'altura de la gràfica a $x=a$. Quan toca l'eix, hem trobat un factor.</p>
+  <div class="giny" data-giny="residu" data-cs="[1,-4,1,6]" data-finestra="[-2,4,-12,10]" data-a0="0"></div>
+</section>
+
+<section class="slide pausa" data-temps="12 min">
+  <h2>Pausa: divisió i Ruffini</h2>
+  <div class="cols small">
+    <div><span class="cons">Consolidació</span>
+      <ul>
+        <li><b>Act. 3</b> (p. 38): fes aquestes divisions.<br>a) $(10x^4-3x^2+1):(x^2-1)$<br>b) $(6x^3+5x):(2x^2)$</li>
+        <li><b>Act. 4</b> (p. 38): divideix amb la regla de Ruffini.<br>a) $(x^3+3):(x+1)$<br>b) $(4x^5-12x^3-20x+2):(x+2)$</li>
+      </ul>
+    </div>
+    <div><span class="ampl">Ampliació</span>
+      <ul>
+        <li><b>Act. 48</b> (p. 55): divisions, quocient i residu.</li>
+        <li><b>Act. 50</b> (p. 55): divisions amb Ruffini.</li>
+        <li><b>Act. 51</b> (p. 55): troba $m$ perquè la divisió sigui exacta.</li>
+        <li><b>Act. 55</b> (p. 55): residu sense fer la divisió.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sol>
+  <h2>Pausa: solucions de l'activitat 3</h2>
+  <div class="cols">
+    <div class="center"><b>a)</b>
+      <div class="mt-src div">
+        10x^4 & -3x^2 & +1 & x^2-1
+        -10x^4 & +10x^2 & & 10x^2+7
+        _ & _7x^2 & +1 &
+        & -7x^2 & +7 &
+        & _ & _\mathbf{8} &
+      </div>
+      Quocient $\mathbf{10x^2+7}$, residu $\mathbf{8}$.
+    </div>
+    <div class="center"><b>b)</b>
+      <div class="mt-src div">
+        6x^3 & +5x & 2x^2
+        -6x^3 & & 3x
+        _ & \mathbf{5x} &
+      </div>
+      Quocient $\mathbf{3x}$, residu $\mathbf{5x}$ (grau $1&lt;2$).
+    </div>
+  </div>
+  <p class="xs" style="margin-top:20px">Al solucionari, a la línia intermèdia de l'a) hi diu $-13x^2+1$; el correcte és $-3x^2+10x^2=7x^2$ (el quocient i el residu sí que són bons).</p>
+</section>
+
+<section class="slide" data-sol>
+  <h2>Pausa: solucions de l'activitat 4</h2>
+  <div class="cols c">
+    <div class="center"><b>a)</b> $a=-1$
+      <div class="mt-src ruf">
+        & 1 & 0 & 0 & 3
+        -1 & & -1 & 1 & -1
+        & 1 & -1 & 1 & !2
+      </div>
+      Quocient $\mathbf{x^2-x+1}$, residu $\mathbf{2}$
+    </div>
+    <div class="center" style="flex:1.5"><b>b)</b> $a=-2$
+      <div class="mt-src ruf">
+        & 4 & 0 & -12 & 0 & -20 & 2
+        -2 & & -8 & 16 & -8 & 16 & 8
+        & 4 & -8 & 4 & -8 & -4 & !10
+      </div>
+      Quocient $\mathbf{4x^4-8x^3+4x^2-8x-4}$, residu $\mathbf{10}$
+    </div>
+  </div>
+  <p class="center small">Comprovació: $P(-2)=-128+96+40+2=10$ <span class="ok">bé</span></p>
+</section>
+
+<!-- ======================================================================= -->
+<section class="slide seccio"><h1>Per acabar</h1></section>
+
+<section class="slide">
+  <h2>Resum d'avui</h2>
+  <ul>
+    <li><b>Grau</b> i <b>terme independent</b>: sempre del polinomi <b>reduït</b>.</li>
+    <li><b>Valor numèric</b> $P(a)$: substituir amb parèntesis i operar.</li>
+    <li><b>Sumar/restar</b>: monomis semblants (el $-$ canvia tots els signes). <b>Multiplicar</b>: tots per tots.</li>
+    <li><b>Divisió</b>: $P(x)=Q(x)\cdot C(x)+R(x)$, amb $\operatorname{grau}(R)&lt;\operatorname{grau}(Q)$.</li>
+    <li><b>Ruffini</b>: només per a $(x-a)$; zeros als forats; $(x+a)\to -a$.</li>
+    <li><b>Teorema del residu</b>: el residu de $P(x):(x-a)$ és $P(a)$.</li>
+  </ul>
+</section>
+
+<section class="slide impacte" data-bg="#9400D3">
+  <h1>Residu zero, factor trobat</h1>
+  <div class="sub">La propera classe: arrels i factorització</div>
+</section>
+
+<section class="slide">
+  <h2>Per a la propera classe</h2>
+  <ul style="margin-top:20px">
+    <li style="margin:18px 0">Acabar les activitats d'avui: <b>1, 2</b> (p. 37) i <b>3, 4</b> (p. 38).</li>
+    <li style="margin:18px 0">Deures: p. 55, activitats <b>43, 48, 50 i 51</b>.</li>
+    <li style="margin:18px 0">Propera classe: <span class="hl">2. Arrels d'un polinomi</span> (p. 39) i <span class="hl">3. Factorització</span> (p. 40).</li>
+  </ul>
+</section>
+
+</div>
+</body>
+</html>
