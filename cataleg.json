@@ -16,5 +16,14 @@
   "descripcio": "valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar",
   "fitxer": "1bat/polinomis.html",
   "actualitzat": "2026-10-14"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "2",
+  "titol": "Menors, adjunts i desenvolupament (mode pissarra): amb capa d'escriptura digital i punter làser multicolor",
+  "descripcio": "versió amb eina de pissarra digital i punter làser multicolor",
+  "fitxer": "2bat/determinants_pissarra.html",
+  "actualitzat": "2026-10-14"
  }
 ]
