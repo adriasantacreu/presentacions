@@ -31,5 +31,16 @@
   "diapos": 17,
   "videos": 0,
   "actualitzat": "2026-10-15"
+ },
+ {
+  "curs": "4ESO",
+  "materia": "Matemàtiques (socials)",
+  "unitat": "9",
+  "titol": "Funcions definides a trossos: llegir-les, avaluar-les i representar-les",
+  "descripcio": "expressions diferents per a intervals diferents; punts oberts i tancats; tarifes",
+  "fitxer": "4eso/funcions-a-trossos.html",
+  "diapos": 18,
+  "videos": 0,
+  "actualitzat": "2026-10-15"
  }
 ]
