@@ -1,20 +1,20 @@
 [
  {
-  "curs": "1BAT",
-  "materia": "Matemàtiques I",
-  "unitat": "2",
-  "titol": "Polinomis: operar, dividir i la regla de Ruffini",
-  "descripcio": "valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar",
-  "fitxer": "1bat/polinomis.html",
-  "actualitzat": "2026-10-14"
- },
- {
   "curs": "2BAT",
   "materia": "Matemàtiques II",
   "unitat": "2",
   "titol": "Menors, adjunts i desenvolupament: el determinant per qualsevol fila o columna",
   "descripcio": "menor complementari, adjunt, desenvolupament per adjunts i fer zeros · amb exercicis per practicar",
   "fitxer": "2bat/determinants_adjunts.html",
+  "actualitzat": "2026-10-14"
+ },
+ {
+  "curs": "1BAT",
+  "materia": "Matemàtiques I",
+  "unitat": "2",
+  "titol": "Polinomis: operar, dividir i la regla de Ruffini",
+  "descripcio": "valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar",
+  "fitxer": "1bat/polinomis.html",
   "actualitzat": "2026-10-14"
  }
 ]
