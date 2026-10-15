@@ -1,16 +1,5 @@
 [
  {
-  "curs": "4ESO",
-  "materia": "Matemàtiques (socials)",
-  "unitat": "9",
-  "titol": "Funcions definides a trossos: llegir-les, avaluar-les i representar-les",
-  "descripcio": "expressions diferents per a intervals diferents; punts oberts i tancats; tarifes",
-  "fitxer": "4eso/funcions-a-trossos.html",
-  "diapos": 18,
-  "videos": 0,
-  "actualitzat": "2026-10-15"
- },
- {
   "curs": "2BAT",
   "materia": "Matemàtiques II",
   "unitat": "2",
@@ -40,6 +29,17 @@
   "descripcio": "TVA i TVM, signe i interpretació, càlcul amb fórmula, taula i gràfica",
   "fitxer": "4eso/tvm.html",
   "diapos": 17,
+  "videos": 0,
+  "actualitzat": "2026-10-15"
+ },
+ {
+  "curs": "4ESO",
+  "materia": "Matemàtiques (socials)",
+  "unitat": "9",
+  "titol": "Funcions definides a trossos: llegir-les, avaluar-les i representar-les",
+  "descripcio": "expressions diferents per a intervals diferents; punts oberts i tancats; tarifes",
+  "fitxer": "4eso/funcions-a-trossos.html",
+  "diapos": 18,
   "videos": 0,
   "actualitzat": "2026-10-15"
  }
