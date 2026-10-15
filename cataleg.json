@@ -1,16 +1,5 @@
 [
  {
-  "curs": "2BAT",
-  "materia": "Matemàtiques II",
-  "unitat": "2",
-  "titol": "Menors, adjunts i desenvolupament: el determinant per qualsevol fila o columna",
-  "descripcio": "menor complementari, adjunt, desenvolupament per adjunts i fer zeros · amb exercicis per practicar",
-  "fitxer": "2bat/determinants_adjunts.html",
-  "diapos": 33,
-  "videos": 8,
-  "actualitzat": "2026-10-14"
- },
- {
   "curs": "1BAT",
   "materia": "Matemàtiques I",
   "unitat": "2",
@@ -41,6 +30,17 @@
   "fitxer": "4eso/funcions-a-trossos.html",
   "diapos": 18,
   "videos": 0,
+  "actualitzat": "2026-10-15"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "2",
+  "titol": "Menors, adjunts i desenvolupament: el determinant per qualsevol fila o columna",
+  "descripcio": "menor complementari, adjunt, desenvolupament per adjunts i fer zeros · amb exercicis per practicar",
+  "fitxer": "2bat/determinants_adjunts.html",
+  "diapos": 33,
+  "videos": 8,
   "actualitzat": "2026-10-15"
  }
 ]
