@@ -1,16 +1,5 @@
 [
  {
-  "curs": "1BAT",
-  "materia": "Matemàtiques I",
-  "unitat": "2",
-  "titol": "Polinomis: operar, dividir i la regla de Ruffini",
-  "descripcio": "valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar",
-  "fitxer": "1bat/polinomis.html",
-  "diapos": 36,
-  "videos": 7,
-  "actualitzat": "2026-10-14"
- },
- {
   "curs": "4ESO",
   "materia": "Matemàtiques (socials)",
   "unitat": "9",
@@ -41,6 +30,17 @@
   "fitxer": "2bat/determinants_adjunts.html",
   "diapos": 33,
   "videos": 8,
+  "actualitzat": "2026-10-15"
+ },
+ {
+  "curs": "1BAT",
+  "materia": "Matemàtiques I",
+  "unitat": "2",
+  "titol": "Polinomis: operar, dividir i la regla de Ruffini",
+  "descripcio": "valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar",
+  "fitxer": "1bat/polinomis.html",
+  "diapos": 36,
+  "videos": 7,
   "actualitzat": "2026-10-15"
  }
 ]
