@@ -11,6 +11,28 @@
   "actualitzat": "2026-10-16"
  },
  {
+  "curs": "1BATPR",
+  "materia": "Programació i robòtica",
+  "unitat": "9",
+  "titol": "Format condicional: de 0 a expert, amb la lliga de robots",
+  "descripcio": "regles fetes, escales de colors i fórmules personalitzades a Google Sheets, amb les dades reals de la lliga",
+  "fitxer": "1batpr/format-condicional.html",
+  "diapos": 2,
+  "videos": 0,
+  "actualitzat": "2026-10-16"
+ },
+ {
+  "curs": "1BATPR",
+  "materia": "Programació i robòtica",
+  "unitat": "8",
+  "titol": "Funcions amb condicions: llegir la documentació, comptar, sumar i buscar a la lliga de robots",
+  "descripcio": "retorn de la Missió 1, lectura de la documentació oficial, família COUNTIFS/SUMIFS/MINIFS, IF, IFS, XLOOKUP i Missió 2",
+  "fitxer": "1batpr/funcions-condicionals.html",
+  "diapos": 2,
+  "videos": 0,
+  "actualitzat": "2026-10-16"
+ },
+ {
   "curs": "2BAT",
   "materia": "Matemàtiques II",
   "unitat": "2",
