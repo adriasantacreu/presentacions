@@ -90,6 +90,17 @@
  {
   "curs": "4ESO",
   "materia": "Matemàtiques (socials)",
+  "unitat": "10",
+  "titol": "Funció lineal i afí: pendent i ordenada a l'origen",
+  "descripcio": "què vol dir f(3) i funcions de primer grau y = mx + n; pendent, ordenada, tipus i com es representen",
+  "fitxer": "4eso/funcio-lineal-i-afi.html",
+  "diapos": 2,
+  "videos": 4,
+  "actualitzat": "2026-10-21"
+ },
+ {
+  "curs": "4ESO",
+  "materia": "Matemàtiques (socials)",
   "unitat": "9",
   "titol": "Funcions definides a trossos: llegir-les, avaluar-les i representar-les",
   "descripcio": "expressions diferents per a intervals diferents; punts oberts i tancats; tarifes",
