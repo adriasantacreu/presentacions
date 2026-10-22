@@ -7,8 +7,8 @@
   "descripcio": "arrels d'un polinomi, divisors del terme independent, factor comú, igualtats notables i factorització amb Ruffini",
   "fitxer": "1bat/factoritzacio.html",
   "diapos": 2,
-  "videos": 3,
-  "actualitzat": "2026-10-21"
+  "videos": 2,
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "1BAT",
@@ -19,7 +19,7 @@
   "fitxer": "1bat/polinomis.html",
   "diapos": 2,
   "videos": 7,
-  "actualitzat": "2026-10-21"
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "1BATPR",
@@ -30,7 +30,7 @@
   "fitxer": "1batpr/curiositats-dades.html",
   "diapos": 2,
   "videos": 0,
-  "actualitzat": "2026-10-21"
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "1BATPR",
@@ -41,7 +41,7 @@
   "fitxer": "1batpr/format-condicional.html",
   "diapos": 2,
   "videos": 0,
-  "actualitzat": "2026-10-21"
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "1BATPR",
@@ -52,18 +52,7 @@
   "fitxer": "1batpr/funcions-condicionals.html",
   "diapos": 2,
   "videos": 0,
-  "actualitzat": "2026-10-21"
- },
- {
-  "curs": "1BATPR",
-  "materia": "Programació i robòtica",
-  "unitat": "9",
-  "titol": "Com funciona un ordinador per dins: bits, bytes, text, fitxers i emmagatzematge",
-  "descripcio": "de l'interruptor al fitxer: 0 i 1, bits i bytes, binari, ASCII i UTF-8, extensions i unitats d'emmagatzematge",
-  "fitxer": "1batpr/ordinador-per-dins.html",
-  "diapos": 2,
-  "videos": 0,
-  "actualitzat": "2026-10-21"
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "2BAT",
@@ -74,7 +63,7 @@
   "fitxer": "2bat/menors-adjunts-i-desenvolupament.html",
   "diapos": 2,
   "videos": 8,
-  "actualitzat": "2026-10-21"
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "2BAT",
@@ -84,19 +73,8 @@
   "descripcio": "menor d'ordre k, rang com l'ordre del menor no nul més gran, mètode dels menors orlats i discussió del rang segons un paràmetre",
   "fitxer": "2bat/rang-per-determinants.html",
   "diapos": 2,
-  "videos": 3,
-  "actualitzat": "2026-10-21"
- },
- {
-  "curs": "4ESO",
-  "materia": "Matemàtiques (socials)",
-  "unitat": "10",
-  "titol": "Funció lineal i afí: pendent i ordenada a l'origen",
-  "descripcio": "què vol dir f(3) i funcions de primer grau y = mx + n; pendent, ordenada, tipus i com es representen",
-  "fitxer": "4eso/funcio-lineal-i-afi.html",
-  "diapos": 2,
-  "videos": 4,
-  "actualitzat": "2026-10-21"
+  "videos": 2,
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "4ESO",
@@ -107,7 +85,7 @@
   "fitxer": "4eso/funcions-definides-a-trossos.html",
   "diapos": 2,
   "videos": 0,
-  "actualitzat": "2026-10-21"
+  "actualitzat": "2026-10-22"
  },
  {
   "curs": "4ESO",
@@ -118,6 +96,6 @@
   "fitxer": "4eso/taxa-de-variacio-mitjana.html",
   "diapos": 2,
   "videos": 3,
-  "actualitzat": "2026-10-21"
+  "actualitzat": "2026-10-22"
  }
 ]
