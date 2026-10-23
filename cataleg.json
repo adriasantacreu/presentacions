@@ -55,6 +55,17 @@
   "actualitzat": "2026-10-23"
  },
  {
+  "curs": "1BATPR",
+  "materia": "Programació i robòtica",
+  "unitat": "9",
+  "titol": "Com funciona un ordinador per dins: bits, bytes, text, fitxers i emmagatzematge",
+  "descripcio": "de l'interruptor al fitxer: 0 i 1, bits i bytes, binari, ASCII i UTF-8, extensions i unitats d'emmagatzematge",
+  "fitxer": "1batpr/ordinador-per-dins.html",
+  "diapos": 2,
+  "videos": 0,
+  "actualitzat": "2026-10-23"
+ },
+ {
   "curs": "2BAT",
   "materia": "Matemàtiques II",
   "unitat": "2",
