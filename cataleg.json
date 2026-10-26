@@ -99,6 +99,17 @@
   "actualitzat": "2026-10-26"
  },
  {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "3",
+  "titol": "Rouché-Frobenius: rang de A i de A*: quantes solucions té un sistema",
+  "descripcio": "sistemes d'equacions lineals, matriu de coeficients i ampliada, rang de les dues i teorema de Rouché-Frobenius per classificar un sistema",
+  "fitxer": "2bat/rouche-frobenius.html",
+  "diapos": 2,
+  "videos": 1,
+  "actualitzat": "2026-10-26"
+ },
+ {
   "curs": "4ESO",
   "materia": "Matemàtiques (socials)",
   "unitat": "10",
