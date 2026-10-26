@@ -33,6 +33,17 @@
   "actualitzat": "2026-10-26"
  },
  {
+  "curs": "1BAT",
+  "materia": "Matemàtiques I",
+  "unitat": "1",
+  "titol": "Potències, notació científica, radicals i racionalització",
+  "descripcio": "",
+  "fitxer": "1bat/potencies-radicals-i-racionalitzacio.html",
+  "diapos": 2,
+  "videos": 4,
+  "actualitzat": "2026-10-26"
+ },
+ {
   "curs": "1BATPR",
   "materia": "Programació i robòtica",
   "unitat": "8",
