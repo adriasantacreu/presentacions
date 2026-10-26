@@ -112,6 +112,17 @@
  {
   "curs": "2BAT",
   "materia": "Matemàtiques II",
+  "unitat": "1",
+  "titol": "Rang, inversa i equacions matricials: mètode de Gauss, Gauss-Jordan, equacions matricials i rang amb paràmetres",
+  "descripcio": "rang d'una matriu pel mètode de Gauss (amb i sense paràmetres), matriu inversa per definició i pel mètode de Gauss-Jordan, equacions i sistemes matricials i problemes PAU · amb activitats del llibre",
+  "fitxer": "2bat/rang-inversa-i-equacions.html",
+  "diapos": 2,
+  "videos": 4,
+  "actualitzat": "2026-10-26"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
   "unitat": "3",
   "titol": "Sistemes d'equacions i Rouché-Frobenius: què és un sistema, com s'escriu amb matrius i quantes solucions té",
   "descripcio": "sistemes d'equacions lineals (coeficients, termes independents, solució i classificació), expressió matricial AX=B, matriu ampliada i teorema de Rouché-Frobenius",
