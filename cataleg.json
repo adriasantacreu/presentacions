@@ -68,6 +68,17 @@
  {
   "curs": "2BAT",
   "materia": "Matemàtiques II",
+  "unitat": "",
+  "titol": "Determinants: introducció, Sarrus i propietats",
+  "descripcio": "Concepte de determinant, ordre 2, regla de Sarrus per a ordre 3 i propietats fonamentals dels determinants.",
+  "fitxer": "2bat/introduccio-i-sarrus.html",
+  "diapos": 2,
+  "videos": 3,
+  "actualitzat": "2026-10-26"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
   "unitat": "2",
   "titol": "Menors, adjunts i desenvolupament: el determinant per qualsevol fila o columna",
   "descripcio": "menor complementari, adjunt, desenvolupament per adjunts i fer zeros · amb exercicis per practicar",
