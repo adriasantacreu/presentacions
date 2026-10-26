@@ -22,6 +22,17 @@
   "actualitzat": "2026-10-26"
  },
  {
+  "curs": "1BAT",
+  "materia": "Matemàtiques I",
+  "unitat": "",
+  "titol": "Nombres reals: conjunts, intervals i valor absolut",
+  "descripcio": "Conjunts numèrics, representació d'arrels a la recta real, intervals, semirectes i valor absolut amb equacions i inequacions.",
+  "fitxer": "1bat/conjunts-intervals-i-valor-absolut.html",
+  "diapos": 2,
+  "videos": 3,
+  "actualitzat": "2026-10-26"
+ },
+ {
   "curs": "1BATPR",
   "materia": "Programació i robòtica",
   "unitat": "8",
