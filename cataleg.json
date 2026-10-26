@@ -101,6 +101,17 @@
  {
   "curs": "2BAT",
   "materia": "Matemàtiques II",
+  "unitat": "1",
+  "titol": "Matrius i operacions: tipus, transposada, suma, producte i potències",
+  "descripcio": "definició i tipus de matrius, transposada, suma i producte per un nombre, producte de matrius i potències amb patrons periòdics · amb activitats del llibre",
+  "fitxer": "2bat/matrius-i-operacions.html",
+  "diapos": 2,
+  "videos": 6,
+  "actualitzat": "2026-10-26"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
   "unitat": "3",
   "titol": "Sistemes d'equacions i Rouché-Frobenius: què és un sistema, com s'escriu amb matrius i quantes solucions té",
   "descripcio": "sistemes d'equacions lineals (coeficients, termes independents, solució i classificació), expressió matricial AX=B, matriu ampliada i teorema de Rouché-Frobenius",
