@@ -178,6 +178,28 @@
  {
   "curs": "4ESO",
   "materia": "Matemàtiques (socials)",
+  "unitat": "9",
+  "titol": "Concepte de funció: què és una funció i les quatre maneres d'expressar-la",
+  "descripcio": "variable independent i dependent, és funció o no, enunciat, expressió, taula i gràfica, unir els punts o no",
+  "fitxer": "4eso/concepte-de-funcio.html",
+  "diapos": 29,
+  "videos": 0,
+  "actualitzat": "2026-10-27"
+ },
+ {
+  "curs": "4ESO",
+  "materia": "Matemàtiques (socials)",
+  "unitat": "9",
+  "titol": "Domini i recorregut: quins valors pot prendre la x i quins surten a la y",
+  "descripcio": "domini i recorregut en una gràfica, notació d'intervals, càlcul del domini de polinomis, fraccions i arrels",
+  "fitxer": "4eso/domini-i-recorregut.html",
+  "diapos": 32,
+  "videos": 2,
+  "actualitzat": "2026-10-27"
+ },
+ {
+  "curs": "4ESO",
+  "materia": "Matemàtiques (socials)",
   "unitat": "10",
   "titol": "Funció lineal i afí: pendent i ordenada a l'origen",
   "descripcio": "què vol dir f(3) i funcions de primer grau y = mx + n; pendent, ordenada, tipus i com es representen",
