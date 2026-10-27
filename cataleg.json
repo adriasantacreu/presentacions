@@ -6,7 +6,7 @@
   "titol": "Arrels i factorització: trobar les arrels enteres i escriure el polinomi com a producte",
   "descripcio": "arrels d'un polinomi, divisors del terme independent, factor comú, igualtats notables i factorització amb Ruffini",
   "fitxer": "1bat/factoritzacio.html",
-  "diapos": 2,
+  "diapos": 44,
   "videos": 4,
   "actualitzat": "2026-10-27"
  },
@@ -17,7 +17,7 @@
   "titol": "Polinomis: operar, dividir i la regla de Ruffini",
   "descripcio": "valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar",
   "fitxer": "1bat/polinomis.html",
-  "diapos": 2,
+  "diapos": 36,
   "videos": 7,
   "actualitzat": "2026-10-27"
  },
@@ -28,7 +28,7 @@
   "titol": "Nombres reals: conjunts, intervals i valor absolut",
   "descripcio": "Conjunts numèrics, representació d'arrels a la recta real, intervals, semirectes i valor absolut amb equacions i inequacions.",
   "fitxer": "1bat/conjunts-intervals-i-valor-absolut.html",
-  "diapos": 2,
+  "diapos": 56,
   "videos": 3,
   "actualitzat": "2026-10-27"
  },
@@ -39,7 +39,7 @@
   "titol": "Logaritmes i càlcul d'errors",
   "descripcio": "",
   "fitxer": "1bat/logaritmes-i-errors.html",
-  "diapos": 2,
+  "diapos": 38,
   "videos": 3,
   "actualitzat": "2026-10-27"
  },
@@ -50,7 +50,7 @@
   "titol": "Potències, notació científica, radicals i racionalització",
   "descripcio": "",
   "fitxer": "1bat/potencies-radicals-i-racionalitzacio.html",
-  "diapos": 2,
+  "diapos": 45,
   "videos": 4,
   "actualitzat": "2026-10-27"
  },
@@ -61,7 +61,7 @@
   "titol": "Curiositats sobre les dades: gens, decimals, errors i expressions regulars",
   "descripcio": "per què el full de càlcul canvia dades sense avisar, els decimals que no quadren, els errors i una introducció a REGEX",
   "fitxer": "1batpr/curiositats-dades.html",
-  "diapos": 2,
+  "diapos": 33,
   "videos": 0,
   "actualitzat": "2026-10-27"
  },
@@ -72,7 +72,7 @@
   "titol": "Format condicional: de 0 a expert, amb la lliga de robots",
   "descripcio": "regles fetes, escales de colors i fórmules personalitzades a Google Sheets, amb les dades reals de la lliga",
   "fitxer": "1batpr/format-condicional.html",
-  "diapos": 2,
+  "diapos": 39,
   "videos": 0,
   "actualitzat": "2026-10-27"
  },
@@ -83,7 +83,7 @@
   "titol": "Funcions amb condicions: llegir la documentació, comptar, sumar i buscar a la lliga de robots",
   "descripcio": "retorn de la Missió 1, lectura de la documentació oficial, família COUNTIFS/SUMIFS/MINIFS, IF, IFS, XLOOKUP i Missió 2",
   "fitxer": "1batpr/funcions-condicionals.html",
-  "diapos": 2,
+  "diapos": 36,
   "videos": 0,
   "actualitzat": "2026-10-27"
  },
@@ -94,7 +94,7 @@
   "titol": "Com funciona un ordinador per dins: bits, bytes, text, fitxers i emmagatzematge",
   "descripcio": "de l'interruptor al fitxer: 0 i 1, bits i bytes, binari, ASCII i UTF-8, extensions i unitats d'emmagatzematge",
   "fitxer": "1batpr/ordinador-per-dins.html",
-  "diapos": 2,
+  "diapos": 32,
   "videos": 0,
   "actualitzat": "2026-10-27"
  },
@@ -105,7 +105,7 @@
   "titol": "Determinants: introducció, Sarrus i propietats",
   "descripcio": "Concepte de determinant, ordre 2, regla de Sarrus per a ordre 3 i propietats fonamentals dels determinants.",
   "fitxer": "2bat/introduccio-i-sarrus.html",
-  "diapos": 2,
+  "diapos": 45,
   "videos": 3,
   "actualitzat": "2026-10-27"
  },
@@ -116,7 +116,7 @@
   "titol": "Menors, adjunts i desenvolupament: el determinant per qualsevol fila o columna",
   "descripcio": "menor complementari, adjunt, desenvolupament per adjunts i fer zeros · amb exercicis per practicar",
   "fitxer": "2bat/menors-adjunts-i-desenvolupament.html",
-  "diapos": 2,
+  "diapos": 34,
   "videos": 8,
   "actualitzat": "2026-10-27"
  },
@@ -127,7 +127,7 @@
   "titol": "Propietats que surten a la PAU: què li passa al determinant quan toquem la matriu",
   "descripcio": "propietats del determinant (transposada, producte, inversa, múltiple d'una matriu, files iguals o proporcionals) i qüestions curtes de PAU reals",
   "fitxer": "2bat/propietats-que-surten-a-la-pau.html",
-  "diapos": 2,
+  "diapos": 32,
   "videos": 1,
   "actualitzat": "2026-10-27"
  },
@@ -138,7 +138,7 @@
   "titol": "Rang per determinants: menors, menors orlats i rang amb paràmetre",
   "descripcio": "menor d'ordre k, rang com l'ordre del menor no nul més gran, mètode dels menors orlats i discussió del rang segons un paràmetre",
   "fitxer": "2bat/rang-per-determinants.html",
-  "diapos": 2,
+  "diapos": 55,
   "videos": 3,
   "actualitzat": "2026-10-27"
  },
@@ -149,7 +149,7 @@
   "titol": "Matrius i operacions: tipus, transposada, suma, producte i potències",
   "descripcio": "definició i tipus de matrius, transposada, suma i producte per un nombre, producte de matrius i potències amb patrons periòdics · amb activitats del llibre",
   "fitxer": "2bat/matrius-i-operacions.html",
-  "diapos": 2,
+  "diapos": 51,
   "videos": 6,
   "actualitzat": "2026-10-27"
  },
@@ -160,7 +160,7 @@
   "titol": "Rang, inversa i equacions matricials: mètode de Gauss, Gauss-Jordan, equacions matricials i rang amb paràmetres",
   "descripcio": "rang d'una matriu pel mètode de Gauss (amb i sense paràmetres), matriu inversa per definició i pel mètode de Gauss-Jordan, equacions i sistemes matricials i problemes PAU · amb activitats del llibre",
   "fitxer": "2bat/rang-inversa-i-equacions.html",
-  "diapos": 2,
+  "diapos": 60,
   "videos": 4,
   "actualitzat": "2026-10-27"
  },
@@ -171,7 +171,7 @@
   "titol": "Sistemes d'equacions i Rouché-Frobenius: què és un sistema, com s'escriu amb matrius i quantes solucions té",
   "descripcio": "sistemes d'equacions lineals (coeficients, termes independents, solució i classificació), expressió matricial AX=B, matriu ampliada i teorema de Rouché-Frobenius",
   "fitxer": "2bat/rouche-frobenius.html",
-  "diapos": 2,
+  "diapos": 55,
   "videos": 5,
   "actualitzat": "2026-10-27"
  },
@@ -182,7 +182,7 @@
   "titol": "Funció lineal i afí: pendent i ordenada a l'origen",
   "descripcio": "què vol dir f(3) i funcions de primer grau y = mx + n; pendent, ordenada, tipus i com es representen",
   "fitxer": "4eso/funcio-lineal-i-afi.html",
-  "diapos": 2,
+  "diapos": 32,
   "videos": 4,
   "actualitzat": "2026-10-27"
  },
@@ -193,7 +193,7 @@
   "titol": "Funcions definides a trossos: llegir-les, avaluar-les i representar-les",
   "descripcio": "expressions diferents per a intervals diferents; punts oberts i tancats; tarifes",
   "fitxer": "4eso/funcions-definides-a-trossos.html",
-  "diapos": 2,
+  "diapos": 28,
   "videos": 0,
   "actualitzat": "2026-10-27"
  },
@@ -204,7 +204,7 @@
   "titol": "Taxa de variació mitjana: quant canvia una funció en un interval",
   "descripcio": "TVA i TVM, signe i interpretació, càlcul amb fórmula, taula i gràfica",
   "fitxer": "4eso/taxa-de-variacio-mitjana.html",
-  "diapos": 2,
+  "diapos": 47,
   "videos": 3,
   "actualitzat": "2026-10-27"
  }
