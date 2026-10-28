@@ -168,6 +168,17 @@
   "curs": "2BAT",
   "materia": "Matemàtiques II",
   "unitat": "3",
+  "titol": "Regla de Cramer: resoldre sistemes amb determinants, també quan són indeterminats",
+  "descripcio": "regla de Cramer per a sistemes n×n amb |A|≠0 (|A_xi|/|A|) i generalització a qualsevol sistema compatible triant un menor no nul i passant incògnites al segon membre",
+  "fitxer": "2bat/regla-de-cramer.html",
+  "diapos": 28,
+  "videos": 2,
+  "actualitzat": "2026-10-28"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "3",
   "titol": "Sistemes d'equacions i Rouché-Frobenius: què és un sistema, com s'escriu amb matrius i quantes solucions té",
   "descripcio": "sistemes d'equacions lineals (coeficients, termes independents, solució i classificació), expressió matricial AX=B, matriu ampliada i teorema de Rouché-Frobenius",
   "fitxer": "2bat/rouche-frobenius.html",
