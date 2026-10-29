@@ -231,6 +231,18 @@
   "curs": "4ESO",
   "materia": "Matemàtiques (socials)",
   "unitat": "9",
+  "titol": "Continuïtat i punts de tall: dibuixar sense aixecar el llapis i trobar on la gràfica toca els eixos",
+  "descripcio": "funcions contínues, tipus de discontinuïtat (evitable, salt finit, salt infinit) i punts de tall amb els eixos",
+  "fitxer": "4eso/continuitat-i-punts-de-tall.html",
+  "diapos": 28,
+  "videos": 2,
+  "actualitzat": "2026-10-29",
+  "miniatura": "miniatures/4eso_continuitat-i-punts-de-tall.jpg"
+ },
+ {
+  "curs": "4ESO",
+  "materia": "Matemàtiques (socials)",
+  "unitat": "9",
   "titol": "Domini i recorregut: quins valors pot prendre la x i quins surten a la y",
   "descripcio": "domini i recorregut en una gràfica, notació d'intervals, càlcul del domini de polinomis, fraccions i arrels",
   "fitxer": "4eso/domini-i-recorregut.html",
