@@ -210,8 +210,8 @@
   "titol": "Discussió de sistemes amb paràmetre: sistemes homogenis i com discutir (i resoldre) un sistema que depèn d'un paràmetre",
   "descripcio": "sistemes homogenis (solució trivial, SCD o SCI), discussió de sistemes amb paràmetre per rang i determinants (valors crítics, Rouché-Frobenius, resolució amb Cramer) i problemes de plantejament tipus PAU",
   "fitxer": "2bat/discussio-de-sistemes-amb-parametre.html",
-  "diapos": 17,
-  "videos": 1,
+  "diapos": 49,
+  "videos": 2,
   "actualitzat": "2026-11-04",
   "miniatura": "miniatures/2bat_discussio-de-sistemes-amb-parametre.jpg"
  },
