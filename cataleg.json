@@ -86,6 +86,18 @@
  {
   "curs": "1BATPR",
   "materia": "Programació i robòtica",
+  "unitat": "10",
+  "titol": "From Zero to GitHub: vS Code, terminal, Git, GitHub, branques, Codespaces i rescat",
+  "descripcio": "de zero a un repositori propi a GitHub, pas a pas i amb fonaments",
+  "fitxer": "1batpr/git-github.html",
+  "diapos": 157,
+  "videos": 0,
+  "actualitzat": "2026-11-06",
+  "miniatura": "miniatures/1batpr_git-github.jpg"
+ },
+ {
+  "curs": "1BATPR",
+  "materia": "Programació i robòtica",
   "unitat": "8",
   "titol": "Curiositats sobre les dades: gens, decimals, errors i expressions regulars",
   "descripcio": "per què el full de càlcul canvia dades sense avisar, els decimals que no quadren, els errors i una introducció a REGEX",
