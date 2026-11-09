@@ -273,6 +273,32 @@
   "miniatura": "miniatures/2bat_rouche-frobenius.jpg"
  },
  {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "4",
+  "titol": "Producte escalar: definició, expressió analítica, angle, perpendicularitat i projecció",
+  "descripcio": "producte escalar de dos vectors, propietats, expressió en coordenades, angle entre vectors, vectors perpendiculars i projecció d'un vector sobre un altre",
+  "fitxer": "2bat/producte-escalar.html",
+  "ordre": 999,
+  "diapos": 55,
+  "videos": 3,
+  "actualitzat": "2026-11-09",
+  "miniatura": "miniatures/2bat_producte-escalar.jpg"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "4",
+  "titol": "Producte vectorial i producte mixt: àrees, vectors perpendiculars, bases ortogonals i volums",
+  "descripcio": "producte vectorial en coordenades, vector normal i base ortogonal, àrees de paral·lelograms i triangles, producte mixt i volums de paral·lelepípedes i tetraedres",
+  "fitxer": "2bat/producte-vectorial-i-mixt.html",
+  "ordre": 999,
+  "diapos": 87,
+  "videos": 0,
+  "actualitzat": "2026-11-09",
+  "miniatura": "miniatures/2bat_producte-vectorial-i-mixt.jpg"
+ },
+ {
   "curs": "4ESO",
   "materia": "Matemàtiques (socials)",
   "unitat": "9",
