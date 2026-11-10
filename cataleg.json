@@ -273,6 +273,19 @@
   "miniatura": "miniatures/2bat_rouche-frobenius.jpg"
  },
  {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "4",
+  "titol": "Vectors i bases: operar en coordenades, dependència lineal i bases de l'espai",
+  "descripcio": "vectors de l'espai, coordenades i mòdul, suma i producte per un nombre, combinació lineal, dependència i independència lineal, bases, punt mitjà i tres punts alineats, amb PAU reals",
+  "fitxer": "2bat/vectors-i-bases.html",
+  "ordre": 999,
+  "diapos": 67,
+  "videos": 4,
+  "actualitzat": "2026-11-10",
+  "miniatura": "miniatures/2bat_vectors-i-bases.jpg"
+ },
+ {
   "curs": "4ESO",
   "materia": "Matemàtiques (socials)",
   "unitat": "9",
