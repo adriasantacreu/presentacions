@@ -6,10 +6,10 @@
   "titol": "Equacions de segon grau i biquadràtiques: resoldre, relacionar solucions i coeficients, comptar solucions i fer el canvi z = x²",
   "descripcio": "completes i incompletes, suma i producte de les solucions, discriminant i equacions biquadràtiques (llibre p. 44–45)",
   "fitxer": "1bat/equacions.html",
-  "ordre": 13,
+  "ordre": 16,
   "diapos": 48,
   "videos": 6,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1bat_equacions.jpg"
  },
  {
@@ -19,10 +19,10 @@
   "titol": "Equacions amb fraccions algebraiques i amb radicals: eliminar denominadors, eliminar arrels i comprovar les solucions que s'han colat",
   "descripcio": "equacions racionals (P/Q = R, P/Q = R/S) i irracionals (√P = Q, √P + √Q = R), amb la comprovació de les solucions falses (llibre p. 46, 53–55 i 59–60)",
   "fitxer": "1bat/equacions-racionals-i-irracionals.html",
-  "ordre": 14,
+  "ordre": 17,
   "diapos": 50,
   "videos": 4,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1bat_equacions-racionals-i-irracionals.jpg"
  },
  {
@@ -32,10 +32,10 @@
   "titol": "Arrels i factorització: trobar les arrels enteres i escriure el polinomi com a producte",
   "descripcio": "arrels d'un polinomi, divisors del terme independent, factor comú, igualtats notables i factorització amb Ruffini",
   "fitxer": "1bat/factoritzacio.html",
-  "ordre": 12,
+  "ordre": 15,
   "diapos": 60,
   "videos": 6,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1bat_factoritzacio.jpg"
  },
  {
@@ -45,10 +45,10 @@
   "titol": "Polinomis: operar, dividir i la regla de Ruffini",
   "descripcio": "valor numèric, operacions, divisió, Ruffini i teorema del residu · amb exercicis per practicar",
   "fitxer": "1bat/polinomis.html",
-  "ordre": 11,
+  "ordre": 14,
   "diapos": 36,
   "videos": 7,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1bat_polinomis.jpg"
  },
  {
@@ -58,10 +58,10 @@
   "titol": "Nombres reals: conjunts, intervals i valor absolut",
   "descripcio": "Conjunts numèrics, representació d'arrels a la recta real, intervals, semirectes i valor absolut amb equacions i inequacions.",
   "fitxer": "1bat/conjunts-intervals-i-valor-absolut.html",
-  "ordre": 8,
+  "ordre": 11,
   "diapos": 56,
   "videos": 3,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1bat_conjunts-intervals-i-valor-absolut.jpg"
  },
  {
@@ -71,10 +71,10 @@
   "titol": "Logaritmes i càlcul d'errors",
   "descripcio": "",
   "fitxer": "1bat/logaritmes-i-errors.html",
-  "ordre": 10,
+  "ordre": 13,
   "diapos": 38,
   "videos": 3,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1bat_logaritmes-i-errors.jpg"
  },
  {
@@ -84,10 +84,10 @@
   "titol": "Potències, notació científica, radicals i racionalització",
   "descripcio": "",
   "fitxer": "1bat/potencies-radicals-i-racionalitzacio.html",
-  "ordre": 9,
+  "ordre": 12,
   "diapos": 45,
   "videos": 4,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1bat_potencies-radicals-i-racionalitzacio.jpg"
  },
  {
@@ -97,10 +97,10 @@
   "titol": "From Zero to GitHub: vS Code, terminal, Git, GitHub, branques, Codespaces i rescat",
   "descripcio": "de zero a un repositori propi a GitHub, pas a pas i amb fonaments",
   "fitxer": "1batpr/git-github.html",
-  "ordre": 22,
+  "ordre": 25,
   "diapos": 157,
   "videos": 0,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1batpr_git-github.jpg"
  },
  {
@@ -110,10 +110,10 @@
   "titol": "Curiositats sobre les dades: gens, decimals, errors i expressions regulars",
   "descripcio": "per què el full de càlcul canvia dades sense avisar, els decimals que no quadren, els errors i una introducció a REGEX",
   "fitxer": "1batpr/curiositats-dades.html",
-  "ordre": 25,
+  "ordre": 28,
   "diapos": 33,
   "videos": 0,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1batpr_curiositats-dades.jpg"
  },
  {
@@ -123,10 +123,10 @@
   "titol": "Format condicional: de 0 a expert, amb la lliga de robots",
   "descripcio": "regles fetes, escales de colors i fórmules personalitzades a Google Sheets, amb les dades reals de la lliga",
   "fitxer": "1batpr/format-condicional.html",
-  "ordre": 24,
+  "ordre": 27,
   "diapos": 39,
   "videos": 0,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1batpr_format-condicional.jpg"
  },
  {
@@ -136,10 +136,10 @@
   "titol": "Funcions amb condicions: llegir la documentació, comptar, sumar i buscar a la lliga de robots",
   "descripcio": "retorn de la Missió 1, lectura de la documentació oficial, família COUNTIFS/SUMIFS/MINIFS, IF, IFS, XLOOKUP i Missió 2",
   "fitxer": "1batpr/funcions-condicionals.html",
-  "ordre": 23,
+  "ordre": 26,
   "diapos": 36,
   "videos": 0,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1batpr_funcions-condicionals.jpg"
  },
  {
@@ -149,10 +149,10 @@
   "titol": "Com funciona un ordinador per dins: bits, bytes, text, fitxers i emmagatzematge",
   "descripcio": "de l'interruptor al fitxer: 0 i 1, bits i bytes, binari, ASCII i UTF-8, extensions i unitats d'emmagatzematge",
   "fitxer": "1batpr/ordinador-per-dins.html",
-  "ordre": 26,
+  "ordre": 29,
   "diapos": 32,
   "videos": 0,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/1batpr_ordinador-per-dins.jpg"
  },
  {
@@ -165,7 +165,7 @@
   "ordre": 2,
   "diapos": 45,
   "videos": 3,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_introduccio-i-sarrus.jpg"
  },
  {
@@ -178,7 +178,7 @@
   "ordre": 999,
   "diapos": 34,
   "videos": 8,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_menors-adjunts-i-desenvolupament.jpg"
  },
  {
@@ -191,7 +191,7 @@
   "ordre": 4,
   "diapos": 32,
   "videos": 1,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_propietats-que-surten-a-la-pau.jpg"
  },
  {
@@ -204,7 +204,7 @@
   "ordre": 3,
   "diapos": 55,
   "videos": 3,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_rang-per-determinants.jpg"
  },
  {
@@ -217,7 +217,7 @@
   "ordre": 0,
   "diapos": 51,
   "videos": 6,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_matrius-i-operacions.jpg"
  },
  {
@@ -230,7 +230,7 @@
   "ordre": 1,
   "diapos": 60,
   "videos": 4,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_rang-inversa-i-equacions.jpg"
  },
  {
@@ -243,7 +243,7 @@
   "ordre": 7,
   "diapos": 49,
   "videos": 2,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_discussio-de-sistemes-amb-parametre.jpg"
  },
  {
@@ -256,7 +256,7 @@
   "ordre": 6,
   "diapos": 28,
   "videos": 2,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_regla-de-cramer.jpg"
  },
  {
@@ -269,8 +269,47 @@
   "ordre": 5,
   "diapos": 82,
   "videos": 6,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/2bat_rouche-frobenius.jpg"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "4",
+  "titol": "Producte escalar: definició, expressió analítica, angle, perpendicularitat i projecció",
+  "descripcio": "producte escalar de dos vectors, propietats, expressió en coordenades, angle entre vectors, vectors perpendiculars i projecció d'un vector sobre un altre",
+  "fitxer": "2bat/producte-escalar.html",
+  "ordre": 9,
+  "diapos": 55,
+  "videos": 3,
+  "actualitzat": "2026-11-12",
+  "miniatura": "miniatures/2bat_producte-escalar.jpg"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "4",
+  "titol": "Producte vectorial i producte mixt: àrees, vectors perpendiculars, bases ortogonals i volums",
+  "descripcio": "producte vectorial en coordenades, vector normal i base ortogonal, àrees de paral·lelograms i triangles, producte mixt i volums de paral·lelepípedes i tetraedres",
+  "fitxer": "2bat/producte-vectorial-i-mixt.html",
+  "ordre": 10,
+  "diapos": 87,
+  "videos": 0,
+  "actualitzat": "2026-11-12",
+  "miniatura": "miniatures/2bat_producte-vectorial-i-mixt.jpg"
+ },
+ {
+  "curs": "2BAT",
+  "materia": "Matemàtiques II",
+  "unitat": "4",
+  "titol": "Vectors i bases: operar en coordenades, dependència lineal i bases de l'espai",
+  "descripcio": "vectors de l'espai, coordenades i mòdul, suma i producte per un nombre, combinació lineal, dependència i independència lineal, bases, punt mitjà i tres punts alineats, amb PAU reals",
+  "fitxer": "2bat/vectors-i-bases.html",
+  "ordre": 8,
+  "diapos": 67,
+  "videos": 4,
+  "actualitzat": "2026-11-12",
+  "miniatura": "miniatures/2bat_vectors-i-bases.jpg"
  },
  {
   "curs": "4ESO",
@@ -279,10 +318,10 @@
   "titol": "Concepte de funció: què és una funció i les quatre maneres d'expressar-la",
   "descripcio": "variable independent i dependent, és funció o no, enunciat, expressió, taula i gràfica, unir els punts o no",
   "fitxer": "4eso/concepte-de-funcio.html",
-  "ordre": 15,
+  "ordre": 18,
   "diapos": 29,
   "videos": 0,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/4eso_concepte-de-funcio.jpg"
  },
  {
@@ -292,10 +331,10 @@
   "titol": "Continuïtat i punts de tall: dibuixar sense aixecar el llapis i trobar on la gràfica toca els eixos",
   "descripcio": "funcions contínues, tipus de discontinuïtat (evitable, salt finit, salt infinit) i punts de tall amb els eixos",
   "fitxer": "4eso/continuitat-i-punts-de-tall.html",
-  "ordre": 17,
+  "ordre": 20,
   "diapos": 28,
   "videos": 2,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/4eso_continuitat-i-punts-de-tall.jpg"
  },
  {
@@ -305,10 +344,10 @@
   "titol": "Domini i recorregut: quins valors pot prendre la x i quins surten a la y",
   "descripcio": "domini i recorregut en una gràfica, notació d'intervals, càlcul del domini de polinomis, fraccions i arrels",
   "fitxer": "4eso/domini-i-recorregut.html",
-  "ordre": 16,
+  "ordre": 19,
   "diapos": 32,
   "videos": 2,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/4eso_domini-i-recorregut.jpg"
  },
  {
@@ -318,10 +357,10 @@
   "titol": "Funció lineal i afí: pendent i ordenada a l'origen",
   "descripcio": "què vol dir f(3) i funcions de primer grau y = mx + n; pendent, ordenada, tipus i com es representen",
   "fitxer": "4eso/funcio-lineal-i-afi.html",
-  "ordre": 20,
+  "ordre": 23,
   "diapos": 74,
   "videos": 6,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/4eso_funcio-lineal-i-afi.jpg"
  },
  {
@@ -331,10 +370,10 @@
   "titol": "Funcions definides a trossos: llegir-les, avaluar-les i representar-les",
   "descripcio": "expressions diferents per a intervals diferents; punts oberts i tancats; tarifes",
   "fitxer": "4eso/funcions-definides-a-trossos.html",
-  "ordre": 19,
+  "ordre": 22,
   "diapos": 28,
   "videos": 0,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/4eso_funcions-definides-a-trossos.jpg"
  },
  {
@@ -344,10 +383,10 @@
   "titol": "Taxa de variació mitjana: quant canvia una funció en un interval",
   "descripcio": "TVA i TVM, signe i interpretació, càlcul amb fórmula, taula i gràfica",
   "fitxer": "4eso/taxa-de-variacio-mitjana.html",
-  "ordre": 18,
+  "ordre": 21,
   "diapos": 47,
   "videos": 3,
-  "actualitzat": "2026-11-10",
+  "actualitzat": "2026-11-12",
   "miniatura": "miniatures/4eso_taxa-de-variacio-mitjana.jpg"
  }
 ]
