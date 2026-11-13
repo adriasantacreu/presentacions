@@ -9,7 +9,7 @@
   "ordre": 16,
   "diapos": 48,
   "videos": 6,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1bat_equacions.jpg"
  },
  {
@@ -22,7 +22,7 @@
   "ordre": 17,
   "diapos": 50,
   "videos": 4,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1bat_equacions-racionals-i-irracionals.jpg"
  },
  {
@@ -35,7 +35,7 @@
   "ordre": 15,
   "diapos": 60,
   "videos": 6,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1bat_factoritzacio.jpg"
  },
  {
@@ -48,7 +48,7 @@
   "ordre": 14,
   "diapos": 36,
   "videos": 7,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1bat_polinomis.jpg"
  },
  {
@@ -61,7 +61,7 @@
   "ordre": 11,
   "diapos": 56,
   "videos": 3,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1bat_conjunts-intervals-i-valor-absolut.jpg"
  },
  {
@@ -74,7 +74,7 @@
   "ordre": 13,
   "diapos": 38,
   "videos": 3,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1bat_logaritmes-i-errors.jpg"
  },
  {
@@ -87,7 +87,7 @@
   "ordre": 12,
   "diapos": 45,
   "videos": 4,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1bat_potencies-radicals-i-racionalitzacio.jpg"
  },
  {
@@ -100,7 +100,7 @@
   "ordre": 25,
   "diapos": 157,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1batpr_git-github.jpg"
  },
  {
@@ -113,7 +113,7 @@
   "ordre": 28,
   "diapos": 33,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1batpr_curiositats-dades.jpg"
  },
  {
@@ -126,7 +126,7 @@
   "ordre": 27,
   "diapos": 39,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1batpr_format-condicional.jpg"
  },
  {
@@ -139,7 +139,7 @@
   "ordre": 26,
   "diapos": 36,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1batpr_funcions-condicionals.jpg"
  },
  {
@@ -152,7 +152,7 @@
   "ordre": 29,
   "diapos": 32,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/1batpr_ordinador-per-dins.jpg"
  },
  {
@@ -165,7 +165,7 @@
   "ordre": 2,
   "diapos": 45,
   "videos": 3,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_introduccio-i-sarrus.jpg"
  },
  {
@@ -178,7 +178,7 @@
   "ordre": 999,
   "diapos": 34,
   "videos": 8,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_menors-adjunts-i-desenvolupament.jpg"
  },
  {
@@ -191,7 +191,7 @@
   "ordre": 4,
   "diapos": 32,
   "videos": 1,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_propietats-que-surten-a-la-pau.jpg"
  },
  {
@@ -204,7 +204,7 @@
   "ordre": 3,
   "diapos": 55,
   "videos": 3,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_rang-per-determinants.jpg"
  },
  {
@@ -217,7 +217,7 @@
   "ordre": 0,
   "diapos": 51,
   "videos": 6,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_matrius-i-operacions.jpg"
  },
  {
@@ -230,7 +230,7 @@
   "ordre": 1,
   "diapos": 60,
   "videos": 4,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_rang-inversa-i-equacions.jpg"
  },
  {
@@ -243,7 +243,7 @@
   "ordre": 7,
   "diapos": 49,
   "videos": 2,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_discussio-de-sistemes-amb-parametre.jpg"
  },
  {
@@ -256,7 +256,7 @@
   "ordre": 6,
   "diapos": 28,
   "videos": 2,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_regla-de-cramer.jpg"
  },
  {
@@ -269,7 +269,7 @@
   "ordre": 5,
   "diapos": 82,
   "videos": 6,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_rouche-frobenius.jpg"
  },
  {
@@ -282,7 +282,7 @@
   "ordre": 9,
   "diapos": 55,
   "videos": 3,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_producte-escalar.jpg"
  },
  {
@@ -295,7 +295,7 @@
   "ordre": 10,
   "diapos": 87,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_producte-vectorial-i-mixt.jpg"
  },
  {
@@ -308,7 +308,7 @@
   "ordre": 8,
   "diapos": 67,
   "videos": 4,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/2bat_vectors-i-bases.jpg"
  },
  {
@@ -321,7 +321,7 @@
   "ordre": 18,
   "diapos": 29,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/4eso_concepte-de-funcio.jpg"
  },
  {
@@ -334,7 +334,7 @@
   "ordre": 20,
   "diapos": 28,
   "videos": 2,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/4eso_continuitat-i-punts-de-tall.jpg"
  },
  {
@@ -347,7 +347,7 @@
   "ordre": 19,
   "diapos": 32,
   "videos": 2,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/4eso_domini-i-recorregut.jpg"
  },
  {
@@ -360,7 +360,7 @@
   "ordre": 23,
   "diapos": 74,
   "videos": 6,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/4eso_funcio-lineal-i-afi.jpg"
  },
  {
@@ -373,7 +373,7 @@
   "ordre": 22,
   "diapos": 28,
   "videos": 0,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/4eso_funcions-definides-a-trossos.jpg"
  },
  {
@@ -386,7 +386,7 @@
   "ordre": 21,
   "diapos": 47,
   "videos": 3,
-  "actualitzat": "2026-11-12",
+  "actualitzat": "2026-11-13",
   "miniatura": "miniatures/4eso_taxa-de-variacio-mitjana.jpg"
  }
 ]
